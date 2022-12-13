@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 
-/* function prints alphabet in lowercase */
+/**
+ * function prints alphabet in lowercase
+*/
 void print_alphabet(void)
 {
 	printf("abcdefghijklmnopqrstuvwxyz\n");
