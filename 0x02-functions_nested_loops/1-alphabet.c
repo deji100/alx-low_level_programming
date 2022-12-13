@@ -4,7 +4,7 @@
 /**
  * function prints alphabet in lowercase
 */
-void print_alphabet(void)
+void print_alphabet()
 {
 	printf("abcdefghijklmnopqrstuvwxyz\n");
 }
