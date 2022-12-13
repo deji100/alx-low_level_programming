@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-void print_alphabet(void);
+/* function prints alphabet in lowercase */
+void print_alphabet(void)
+{
+	printf("abcdefghijklmnopqrstuvwxyz\n");
+}
 
 /**
  * main - Entry
@@ -11,10 +15,4 @@ int main(void)
 {
 	print_alphabet();
 	return (0);
-}
-
-/* function prints alphabets in lowercase */
-void print_alphabet(void)
-{
-	printf("abcdefghijklmnopqrstuvwxyz\n")
 }
