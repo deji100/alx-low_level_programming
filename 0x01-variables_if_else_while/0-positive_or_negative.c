@@ -8,9 +8,8 @@
 /*
  * main - Entry point
  *
- * return: Always 0 for success
+ * Return: Always 0 (success)
 */
-
 int main(void)
 {
 	int n;
