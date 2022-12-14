@@ -16,9 +16,6 @@ int main(void)
 	{
 		if (n != 50)
 		{
-			f3 = f1 + f2;
-			f2 = f3;
-			f1 = f2;
 			printf("%d, ", f1);
 		}
 		else
@@ -26,7 +23,8 @@ int main(void)
 			printf("%d, ", f1);
 			printf("\n");
 		}
+		f3 = f1 + f2;
+		f1 = f3;
 	}
-
 	return (0);
 }
