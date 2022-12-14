@@ -25,7 +25,7 @@ int main(void)
 		{
 			f3 = f1 + f2;
 			f1 = f2;
-			f2 = f3
+			f2 = f3;
 			printf("%d, ", f1);
 			printf("\n");
 		}
