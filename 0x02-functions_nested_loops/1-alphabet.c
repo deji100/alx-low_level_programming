@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,15 +5,9 @@
 */
 void print_alphabet()
 {
-	printf("abcdefghijklmnopqrstuvwxyz\n");
-}
+	char letter;
 
-/**
- * main - Entry
- * Return: Always 0
-*/
-int main(void)
-{
-	print_alphabet();
-	return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+	_putchar('\n');
 }
