@@ -17,7 +17,7 @@ int main(void)
 		f1 = n;
 		f2 = n + 1;
 
-		if (f1 == 1 && f2 == 2)
+		if (n != 50)
 		{
 			printf("%d, ", f1);
 		}
