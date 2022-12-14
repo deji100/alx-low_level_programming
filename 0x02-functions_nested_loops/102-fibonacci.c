@@ -7,16 +7,12 @@
  */
 int main(void)
 {
-	int f1;
-	int f2;
-	int f3;
-	int n;
+	int f1, f2, f3, n;
+	int f1 = 1;
+	int f2 = 2;
 
 	for (n = 1; n <= 50; n++)
 	{
-		f1 = n;
-		f2 = n + 1;
-
 		if (n != 50)
 		{
 			printf("%d, ", f1);
@@ -24,8 +20,8 @@ int main(void)
 		else
 		{
 			f3 = f1 + f2;
-			f1 = f2;
 			f2 = f3;
+			f1 = f2;
 			printf("%d, ", f1);
 			printf("\n");
 		}
