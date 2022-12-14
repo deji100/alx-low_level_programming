@@ -10,7 +10,9 @@ int _abs(int n)
 	{
 		return (n);
 	}
-	else{
+	else
+	{
 		n *= -1;
-		return (n);}
+		return (n);
+	}
 }
