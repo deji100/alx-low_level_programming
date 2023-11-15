@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 void _puts(char *s) {
 

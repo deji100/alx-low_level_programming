@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 int _isdigit(int c) {
 
